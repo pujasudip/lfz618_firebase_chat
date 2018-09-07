@@ -6,7 +6,7 @@
 
 > 1. Fork this repo
 > 1. Clone your forked copy of this repo
->    - `git clone https://github.com/[Your Username]/react_starter.git`
+>    - `git clone https://github.com/pujasudip/react_starter.git`
 > 1. Change directory into the newly cloned repo
 >    - `cd react_starter`
 > 1. Install dependencies 
