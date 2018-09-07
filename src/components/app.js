@@ -1,13 +1,14 @@
 import React from 'react';
+import 'materialize-css/dist/css/materialize.min.css';
 import '../assets/css/app.css';
-import logo from '../assets/images/logo.svg';
+import { Route } from 'react-router-dom';
+import Home from './home/home';
+import Chat from './chat/chat';
 
 const App = () => (
-    <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
-        </div>
+    <div className="container">
+        <Route path="/" exact component={Home} />
+        <Route path="/chat" component={Chat} />
     </div>
 );
 
