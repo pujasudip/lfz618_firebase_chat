@@ -6,7 +6,7 @@ export default props => (
     <div>
         <h1 className="center chatHead"><div className="fire">🔥</div>Chat On Fire<div className="fire">🔥</div></h1>
         <div className="home-container">
-            <Link className="btn btn-large red darken-2 chatBtn" to="/chat">Start Chat</Link>
+            <Link className="btn btn-large red darken-2 chatBtn" to="/set-name">Start Chat</Link>
         </div>
     </div>
 )
